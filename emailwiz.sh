@@ -34,7 +34,7 @@
 # `mail.` before it).
 
 echo "Installing programs..."
-zypper install postfix dovecot-imapd dovecot-sieve opendkim spamassassin spamc
+zypper install postfix dovecot opendkim spamassassin spamc
 # Check if OpenDKIM is installed and install it if not.
 which opendkim-genkey >/dev/null 2>&1 || apt install opendkim-tools
 domain="$(cat /etc/mailname)"
