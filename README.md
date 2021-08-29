@@ -1,8 +1,12 @@
 # Email server setup script
 
-I wrote this script during the grueling process of installing and setting up
+[Luke Smith]("https://github.com/lukesmithxyz") originally wrote this script during the grueling process of installing and setting up
 an email server. It perfectly reproduces my successful steps to ensure the
 same setup time and time again, now with many improvements.
+
+I just added modifications to work on opensuse as well.
+
+ORIGINAL DESCRIPTION:
 
 I'm glad to say that dozens, hundreds of people have now used it and there is a
 sizeable network of people with email servers thanks to this script.
